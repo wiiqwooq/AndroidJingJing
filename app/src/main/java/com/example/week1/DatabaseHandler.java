@@ -21,7 +21,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final String KEY_PH_NO = "phone_number";
     private static final String KEY_LINE_ID = "line_id";
     SQLiteDatabase db;
-    public DatabaseHandler(@Nullable View.OnClickListener context) {
+    public DatabaseHandler(@Nullable Week7 context) {
         super((Context) context,DATABASE_NAME,null,DATABASE_VERSION);
     }
 

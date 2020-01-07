@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".listview_row"></activity>
+        <activity android:name=".CustomerAdapter" />
         <activity android:name=".Week7">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,9 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Week6"></activity>
-        <activity android:name=".Week5">
-        </activity>
+        <activity android:name=".Week6" />
+        <activity android:name=".Week5" />
         <activity android:name=".Week4_Intents" />
         <activity android:name=".Week3C" />
         <activity android:name=".Week3B" />
